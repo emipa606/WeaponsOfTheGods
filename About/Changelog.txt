@@ -1,5 +1,8 @@
 # Changelog for WeaponsOfTheGods
 
+1.0.2.0 - Wrong mod-name somehow, again
+
+
 1.0.1.0 - Wrong mod-name somehow
 
 
