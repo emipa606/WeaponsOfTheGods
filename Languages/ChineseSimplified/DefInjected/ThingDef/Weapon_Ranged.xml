@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Bow of Doom (Holy Hellfire Bow) -->
+  <holyhellfirebow.label>神圣的地狱烈焰弓</holyhellfirebow.label>
+  <holyhellfirebow.description>这漂亮而绚丽的弓矢会摧毁你眼前的敌人。</holyhellfirebow.description>
+  <holyhellfirebow.tools.0.label>limb</holyhellfirebow.tools.0.label>
+  <BOD_Arrow.label>地狱烈焰弓矢</BOD_Arrow.label>
+  <!-- Omni Gun -->
+  <omnibullet.label>全辐射电子子弹</omnibullet.label>
+  <omnigun.label>全向电子枪</omnigun.label>
+  <omnigun.description>有人曾经想知道，如果你能在狙击步枪的射程内以迷你机枪的射击速度射击炮弹，会发生什么。好吧，别再想了，制造这个武器吧。</omnigun.description>
+  <omnigun.tools.0.label>stock</omnigun.tools.0.label>
+  <omnigun.tools.1.label>barrel</omnigun.tools.1.label>
+  <!-- One Shot One Kill -->
+  <OSOK.label>毁灭者</OSOK.label>
+  <OSOK.description>许多人想知道是否有一种精确的枪，能够在一次射击中击倒敌人。这个武器就是答案。他们对一发子弹能造成多大的破坏印象深刻，所以他们制造了一种双管精确步枪。子弹是无与伦比的，它们能把击中的任何东西撕碎。“指出目标，然后摧毁它。”</OSOK.description>
+  <OSOK.tools.0.label>stock</OSOK.tools.0.label>
+  <OSOK.tools.1.label>barrel</OSOK.tools.1.label>
+  <Bullet_OSOK.label>轨道炮射弹</Bullet_OSOK.label>
+  <!-- Bow of Doom -->
+  <!-- GUN OF DOOM -->
+</LanguageData>

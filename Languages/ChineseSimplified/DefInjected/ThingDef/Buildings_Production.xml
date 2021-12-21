@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Crafting Table Stuff -->
+  <GodTable.label>神级武器制造台</GodTable.label>
+  <GodTable.description>一个能使人们用死亡之力制作物品的工作台。在没有电力供应时，也能以25%的制作速度继续制作。</GodTable.description>
+  <GodTable_Blueprint.label>神级武器制造台（蓝图）</GodTable_Blueprint.label>
+  <GodTable_Blueprint_Install.label>神级武器制造台（蓝图）</GodTable_Blueprint_Install.label>
+  <GodTable_Frame.label>神级武器制造台（建造中）</GodTable_Frame.label>
+  <GodTable_Frame.description>一个能使人们用死亡之力制作物品的工作台。在没有电力供应时，也能以25%的制作速度继续制作。</GodTable_Frame.description>
+</LanguageData>

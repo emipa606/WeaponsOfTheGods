@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <BombBOD.label>bomb</BombBOD.label>
+  <BombBOD.deathMessage>{0} has died in an explosion.</BombBOD.deathMessage>
+  <BulletMOD.label>bullet</BulletMOD.label>
+  <BulletMOD.deathMessage>{0} has been shot to death.</BulletMOD.deathMessage>
+  <!--[Core] <Bullet.label>子弹伤</Bullet.label>-->
+  <!--[Core] <Bullet.deathMessage>{0}被枪射杀了。</Bullet.deathMessage>-->
+  <!--[Core] <Bomb.label>炸伤</Bomb.label>-->
+  <!--[Core] <Bomb.deathMessage>{0}被炸死了。</Bomb.deathMessage>-->
+</LanguageData>

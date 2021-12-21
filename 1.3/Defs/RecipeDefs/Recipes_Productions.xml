@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- =================================================================== Dark Energy Creation ========================================================== -->
+  <RecipeDef>
+    <defName>Make_darkenergy</defName>
+    <label>Contained Dark Energy</label>
+    <description>A container holding the pure essence of dark energy, a mixture of science and magic. Used to make dark matter.</description>
+    <jobString>Converting matter to energy.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>10000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Uranium</li>
+        <li>Plasteel</li>
+        <li>Gold</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <darkenergy>1</darkenergy>
+    </products>
+    <skillRequirements>
+      <Crafting>10</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+  <!-- =================================================================== Dark Matter Creation ========================================================== -->
+  <RecipeDef>
+    <defName>Make_darkmatter</defName>
+    <label>Contained Dark Matter</label>
+    <description>A container holding pure dark matter, the material of the most destructive qualities. Used for making the godly weapons at a forge.</description>
+    <jobString>Converting energy to matter.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>10000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>darkenergy</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>darkenergy</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <darkmatter>1</darkmatter>
+    </products>
+    <skillRequirements>
+      <Crafting>12</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisites>
+      <li>DarkMatterResearch</li>
+    </researchPrerequisites>
+  </RecipeDef>
+  <!-- =================================================================== Dark Matter Metal ========================================================== -->
+  <!-- normal -->
+  <RecipeDef>
+    <defName>Make_DarkSteel</defName>
+    <label>Dark Steel</label>
+    <description>A metalic material of unequal quality, made from plasteel and dark matter.</description>
+    <jobString>Combining Metal and Dark Matter.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>darkmatter</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>darkmatter</li>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <DarkSteel>20</DarkSteel>
+    </products>
+    <skillRequirements>
+      <Crafting>12</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisites>
+      <li>DarkMatterResearch</li>
+    </researchPrerequisites>
+  </RecipeDef>
+  <!-- darkened -->
+  <RecipeDef>
+    <defName>Make_DarkSteel_Darkened</defName>
+    <label>Darkened Dark Steel</label>
+    <description>A metalic material of unequal quality, made from plasteel and dark matter.</description>
+    <jobString>Combining Metal and Dark Matter.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>darkmatter</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>darkmatter</li>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <DarkSteel_Darkened>20</DarkSteel_Darkened>
+    </products>
+    <skillRequirements>
+      <Crafting>12</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisites>
+      <li>DarkMatterResearch</li>
+    </researchPrerequisites>
+  </RecipeDef>
+  <!-- white -->
+  <RecipeDef>
+    <defName>Make_DarkSteel_White</defName>
+    <label>White Dark Steel</label>
+    <description>A metalic material of unequal quality, made from plasteel and dark matter.</description>
+    <jobString>Combining Metal and Dark Matter.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>darkmatter</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>darkmatter</li>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <DarkSteel_White>20</DarkSteel_White>
+    </products>
+    <skillRequirements>
+      <Crafting>12</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisites>
+      <li>DarkMatterResearch</li>
+    </researchPrerequisites>
+  </RecipeDef>
+  <!-- black -->
+  <RecipeDef>
+    <defName>Make_DarkSteel_Black</defName>
+    <label>Black Dark Steel</label>
+    <description>A metalic material of unequal quality, made from plasteel and dark matter.</description>
+    <jobString>Combining Metal and Dark Matter.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>darkmatter</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>darkmatter</li>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <DarkSteel_Black>20</DarkSteel_Black>
+    </products>
+    <skillRequirements>
+      <Crafting>12</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisites>
+      <li>DarkMatterResearch</li>
+    </researchPrerequisites>
+  </RecipeDef>
+  <!-- gold -->
+  <RecipeDef>
+    <defName>Make_DarkSteel_Gold</defName>
+    <label>Golden Dark Steel</label>
+    <description>A metalic material of unequal quality, made from plasteel and dark matter.</description>
+    <jobString>Combining Metal and Dark Matter.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>darkmatter</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>darkmatter</li>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <DarkSteel_Gold>20</DarkSteel_Gold>
+    </products>
+    <skillRequirements>
+      <Crafting>12</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisites>
+      <li>DarkMatterResearch</li>
+    </researchPrerequisites>
+  </RecipeDef>
+  <!-- marble -->
+  <RecipeDef>
+    <defName>Make_DarkSteel_Marble</defName>
+    <label>Marbled Dark Steel</label>
+    <description>A metalic material of unequal quality, made from plasteel and dark matter.</description>
+    <jobString>Combining Metal and Dark Matter.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>darkmatter</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>darkmatter</li>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <DarkSteel_Marble>20</DarkSteel_Marble>
+    </products>
+    <skillRequirements>
+      <Crafting>12</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisites>
+      <li>DarkMatterResearch</li>
+    </researchPrerequisites>
+  </RecipeDef>
+</Defs>

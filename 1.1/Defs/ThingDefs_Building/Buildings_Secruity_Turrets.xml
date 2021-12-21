@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--=============== Desolation ===============-->
+  <ThingDef ParentName="BuildingBase">
+    <defName>Turret_DarkM</defName>
+    <label>Desolation Cannon</label>
+    <description>Killing people en mass, is not a task everyone has time to doing personally on the Rim. Thankfully they made this turret just for this occassion.</description>
+    <thingClass>Building_TurretGun</thingClass>
+    <!-- Graphics -->
+    <graphicData>
+      <texPath>Turrets/Dark_Base</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(0.27,0.25,0.27)</volume>
+        <offset>(0,0,0)</offset>
+      </shadowData>
+    </graphicData>
+    <uiIconPath>Turrets/DarkM_UI</uiIconPath>
+    <uiIconScale>0.90</uiIconScale>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>false</rotatable>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <!-- Work required + Stats -->
+    <statBases>
+      <MaxHitPoints>7500</MaxHitPoints>
+      <Flammability>0.7</Flammability>
+      <WorkToBuild>120000</WorkToBuild>
+      <Mass>100</Mass>
+      <Beauty>10</Beauty>
+      <ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <!-- Explosion on Death -->
+      <li Class="CompProperties_Explosive">
+        <wickTicks>240</wickTicks>
+        <explosiveRadius>25</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+      </li>
+      <!-- Power Usage -->
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>1000</basePowerConsumption>
+      </li>
+      <!-- Barrel Use -->
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Refuelable">
+        <fuelLabel>Shots until barrel change</fuelLabel>
+        <fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>darkenergy</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelCapacity>5000</fuelCapacity>
+        <initialFuelPercent>1</initialFuelPercent>
+        <autoRefuelPercent>0.75</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <minimumFueledThreshold>1</minimumFueledThreshold>
+        <fuelMultiplier>5000</fuelMultiplier>
+        <factorByDifficulty>true</factorByDifficulty>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <outOfFuelMessage>Cannot shoot: Needs more energy</outOfFuelMessage>
+        <fuelIconPath>Items/DarkEnergy</fuelIconPath>
+      </li>
+    </comps>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.6</fillPercent>
+    <hasTooltip>true</hasTooltip>
+    <!-- Material Cost -->
+    <costList>
+      <Steel>500</Steel>
+      <DarkSteel>125</DarkSteel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+    <building>
+      <combatPower>1000</combatPower>
+      <!-- same as a scavenger -->
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_DarkM</turretGunDef>
+      <turretBurstCooldownTime>3</turretBurstCooldownTime>
+      <!-- Turret Top Size-->
+      <turretTopDrawSize>2.7</turretTopDrawSize>
+      <turretTopOffset>(0, 0.05)</turretTopOffset>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_ShowTurretRadius</li>
+    </placeWorkers>
+    <designationHotKey>Misc2</designationHotKey>
+    <!-- Research Required -->
+    <researchPrerequisites>
+      <li>DarkMatterTurretResearch</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <!-- Bullet -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_DarkM</defName>
+    <label>Plasma</label>
+    <graphicData>
+      <texPath>Turrets/Bullet_TurretM</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>75</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+  <!-- Turret Top -->
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>Gun_DarkM</defName>
+    <label>Desolation Cannon</label>
+    <description>Killing people en mass, is not a task everyone has time to doing personally on the Rim. Thankfully they made this turret just for this occassion.</description>
+    <graphicData>
+      <texPath>Turrets/TopM2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>1.5</AccuracyTouch>
+      <AccuracyShort>1.5</AccuracyShort>
+      <AccuracyMedium>1</AccuracyMedium>
+      <AccuracyLong>0.75</AccuracyLong>
+      <RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>100</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <!-- Bullet -->
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <defaultProjectile>Bullet_DarkM</defaultProjectile>
+        <warmupTime>0</warmupTime>
+        <range>35</range>
+        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+        <burstShotCount>40</burstShotCount>
+        <soundCast>GunShotA</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>15</muzzleFlashScale>
+        <consumeFuelPerShot>1</consumeFuelPerShot>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!--=============== Sniper Turret ===============-->
+  <ThingDef ParentName="BuildingBase">
+    <defName>Turret_DarkS</defName>
+    <label>Peace Keeper</label>
+    <description>When a double barrel sniper rifle wasn't enough, we made a triple barreled turret version.</description>
+    <thingClass>Building_TurretGun</thingClass>
+    <!-- Graphics -->
+    <graphicData>
+      <texPath>Turrets/Dark_Base</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(0.27,0.25,0.27)</volume>
+        <offset>(0,0,0)</offset>
+      </shadowData>
+    </graphicData>
+    <uiIconPath>Turrets/DarkS_UI</uiIconPath>
+    <uiIconScale>0.90</uiIconScale>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>false</rotatable>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <!-- Work required + Stats -->
+    <statBases>
+      <MaxHitPoints>3500</MaxHitPoints>
+      <Flammability>0.7</Flammability>
+      <WorkToBuild>120000</WorkToBuild>
+      <Mass>100</Mass>
+      <Beauty>10</Beauty>
+      <ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <!-- Explosion on Death -->
+      <li Class="CompProperties_Explosive">
+        <wickTicks>240</wickTicks>
+        <explosiveRadius>25</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+      </li>
+      <!-- Power Usage -->
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>1000</basePowerConsumption>
+      </li>
+      <!-- Barrel Use -->
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Refuelable">
+        <fuelLabel>Shots until barrel change</fuelLabel>
+        <fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+        <fuelFilter>
+          <thingDefs>
+            <li>darkenergy</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelCapacity>5000</fuelCapacity>
+        <initialFuelPercent>1</initialFuelPercent>
+        <autoRefuelPercent>0.75</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <minimumFueledThreshold>1</minimumFueledThreshold>
+        <fuelMultiplier>5000</fuelMultiplier>
+        <factorByDifficulty>true</factorByDifficulty>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <outOfFuelMessage>Cannot shoot: Needs more energy</outOfFuelMessage>
+        <fuelIconPath>Items/DarkEnergy</fuelIconPath>
+      </li>
+    </comps>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.6</fillPercent>
+    <hasTooltip>true</hasTooltip>
+    <!-- Material Cost -->
+    <costList>
+      <Steel>500</Steel>
+      <DarkSteel>125</DarkSteel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+    <building>
+      <combatPower>1000</combatPower>
+      <!-- same as a scavenger -->
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_DarkS</turretGunDef>
+      <turretBurstCooldownTime>0.5</turretBurstCooldownTime>
+      <!-- Turret Top Size-->
+      <turretTopDrawSize>2.7</turretTopDrawSize>
+      <turretTopOffset>(0, 0.05)</turretTopOffset>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_ShowTurretRadius</li>
+    </placeWorkers>
+    <designationHotKey>Misc2</designationHotKey>
+    <!-- Research Required -->
+    <researchPrerequisites>
+      <li>DarkMatterTurretResearch</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <!-- Bullet -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_DarkS</defName>
+    <label>Plasma</label>
+    <graphicData>
+      <texPath>Turrets/Bullet_TurretM</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>500</damageAmountBase>
+      <speed>100</speed>
+    </projectile>
+  </ThingDef>
+  <!-- Turret Top -->
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>Gun_DarkS</defName>
+    <label>Desolation Cannons</label>
+    <description>Killing people en mass, is not a task everyone has time to doing personally on the Rim. Thankfully they made this turret just for this occassion.</description>
+    <graphicData>
+      <texPath>Turrets/TopS</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>1</AccuracyMedium>
+      <AccuracyLong>1.5</AccuracyLong>
+      <RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>100</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <!-- Bullet -->
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <defaultProjectile>Bullet_DarkS</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>50</range>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <burstShotCount>3</burstShotCount>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>20</muzzleFlashScale>
+        <consumeFuelPerShot>1</consumeFuelPerShot>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- =============== Mortar =============== 
+
+  <ThingDef ParentName="BaseArtilleryBuilding">
+    <defName>Turret_DarkH</defName>
+    <label>Shattered Heavens</label>
+    <description>When used against enemies, it appears as if the heavens themselves fall upon them, leaving all in despair.</description>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <wickTicks>240</wickTicks>
+        <explosiveRadius>50</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+      </li>
+    </comps>
+    <designationHotKey>Misc4</designationHotKey>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <building>
+      <turretGunDef>Gun_DarkH</turretGunDef>
+    </building>
+  <uiIconPath>Turrets/DarkH_UI</uiIconPath>
+  <uiIconScale>0.9</uiIconScale>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseArtilleryWeapon">
+    <defName>Gun_DarkH</defName>
+    <label>Shattered Heaven</label>
+    <description>The enemy thought they were safe in the fortifications, out of reach, well when the heavens fell upon they realized their error.</description>
+    <graphicData>
+      <texPath>Turrets/TopH</texPath>
+    </graphicData>
+    <verbs>
+	  <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <hasStandardCommand>true</hasStandardCommand>
+        <warmupTime>5.0</warmupTime>
+        <forcedMissRadius>4</forcedMissRadius>
+        <requireLineOfSight>false</requireLineOfSight>
+        <minRange>10</minRange>
+        <range>600</range>
+        <burstShotCount>8</burstShotCount>
+        <soundCast>Mortar_LaunchA</soundCast>
+        <muzzleFlashScale>200</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef> -->
+</Defs>

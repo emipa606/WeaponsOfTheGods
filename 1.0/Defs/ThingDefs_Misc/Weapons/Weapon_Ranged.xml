@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--============================================================= Bow of Doom (Holy Hellfire Bow) ===============================================-->
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>holyhellfirebow</defName>
+    <label>Holy Hellfire Bow</label>
+    <description>There was a wizard, cleric, and a ranger that met one fair day. Together they designed a weapon that utilized all their expertises. This weapon is the result, a bow with the capability of launching highly volitile fireballs.</description>
+    <graphicData>
+      <texPath>Ranged/BOD</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Bow_Small</soundInteract>
+    <costList>
+      <darkmatter>3</darkmatter>
+      <Plasteel>10</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <statBases>
+      <!--Work amount = 6000000 translates into 100000 work in game-->
+      <WorkToMake>100000</WorkToMake>
+      <Mass>10</Mass>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.95</AccuracyShort>
+      <AccuracyMedium>0.90</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>DarkMatterResearch</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>GodTable</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>12</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>BOD_Bullet</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>40</range>
+        <forcedMissRadius>2.9</forcedMissRadius>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+        <soundCast>Bow_Small</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>limb</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>50</power>
+        <cooldownTime>0.1</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!-- -+- BOD Bullet -+- -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>BOD_Bullet</defName>
+    <label>Doom Bolt</label>
+    <graphicData>
+      <texPath>Ranged/BOD_Glow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>BOD_BulletBomb</damageDef>
+      <explosionRadius>2.5</explosionRadius>
+      <speed>100</speed>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+    </projectile>
+  </ThingDef>
+  <!--================================================================ Omni Gun ============================================================================-->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>omnigun</defName>
+    <label>Omni Gun</label>
+    <description>Someone once wondered what would happen if you could shoot shogun shells at the range of a sniper rifle with a rate of fire of a minigun. Well wonder no more and make this weapon.</description>
+    <graphicData>
+      <texPath>Ranged/OmniRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <WorkToMake>100000</WorkToMake>
+      <Mass>10</Mass>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.60</AccuracyMedium>
+      <AccuracyLong>0.50</AccuracyLong>
+      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <darkmatter>3</darkmatter>
+      <Plasteel>10</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>DarkMatterResearch</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>GodTable</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>12</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>omnibullet</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>35</range>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <burstShotCount>35</burstShotCount>
+        <soundCast>Shot_ChargeRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>50</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!-- -+- Omnigun Bullet -+- -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>omnibullet</defName>
+    <label>Omni Bullet</label>
+    <graphicData>
+      <texPath>Ranged/OmniBulletmkiii</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <armorPenetrationBase>0.35</armorPenetrationBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+  <!--================================================================ One Shot One Kill ============================================================================-->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>OSOK</defName>
+    <label>Mutilator</label>
+    <description>Many wondered if there could be a precision sniper rifle with the capability taking down enemies in a single shot. This weapon was the result. They were impressed by how much destruction a single round could do, so they made it a double barelled precision rifle. The bullets are without equal, tearing apart anything they hit. "You name it, you maim it."</description>
+    <graphicData>
+      <texPath>Ranged/OSOK_Test Draft</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <costList>
+      <darkmatter>3</darkmatter>
+      <Plasteel>10</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>DarkMatterResearch</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>GodTable</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>12</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>100000</WorkToMake>
+      <Mass>8</Mass>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>2.00</AccuracyShort>
+      <AccuracyMedium>2.00</AccuracyMedium>
+      <AccuracyLong>2.00</AccuracyLong>
+      <RangedWeapon_Cooldown>0.1</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_OSOK</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>50</range>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <burstShotCount>2</burstShotCount>
+        <muzzleFlashScale>20</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>0.5</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>0.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!-- -+- OSOK Bullet -+- -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_OSOK</defName>
+    <label>railgun projectile</label>
+    <graphicData>
+      <texPath>Ranged/OSOKmki</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>125</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <armorPenetrationBase>2.5</armorPenetrationBase>
+      <speed>100</speed>
+    </projectile>
+  </ThingDef>
+  <!-- ===================================================== BFG =================================================================================== 
+   
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>DarkBFG</defName>
+    <label>The Harbinger</label>
+    <description>Some claimed after all the previous weapons had made, harnessing the power of dark matter, that they had reached the height of their power. They were wrong. This is the Nightmare, as its makes any raid become a hellish nightmare in a single shot.</description>
+    <graphicData>
+      <texPath>Ranged/DarkBFG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<costList>
+	  <darkmatter>7</darkmatter>
+      <Plasteel>30</Plasteel>
+	  <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+	  <researchPrerequisite>DarkMatterResearch</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>GodTable</li>
+      </recipeUsers>
+	  <skillRequirements>
+        <Crafting>13</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>120000</WorkToMake>
+      <Mass>12</Mass>
+      <AccuracyTouch>2.00</AccuracyTouch>
+      <AccuracyShort>2.00</AccuracyShort>
+      <AccuracyMedium>2.00</AccuracyMedium>
+      <AccuracyLong>2.00</AccuracyLong>
+      <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>DarkBFG_Bullet</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>55</range>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+		<forcedMissRadius>0.1</forcedMissRadius>	
+        <muzzleFlashScale>100</muzzleFlashScale>
+		<targetParams>
+			<canTargetLocations>true</canTargetLocations>
+		</targetParams>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>45</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>45</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  -->
+  <!-- -+- BFG Bullet -+- -->
+  <!--
+  <ThingDef ParentName="BaseBullet">
+    <defName>DarkBFG_Bullet</defName>
+    <label>Unstable Dark Matter</label>
+    <graphicData>
+      <texPath>Ranged/DarkBFG_Bullet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>DarkBFG_BulletBomb</damageDef>
+      <explosionRadius>10</explosionRadius>
+      <speed>50</speed>
+	  <ai_IsIncendiary>true</ai_IsIncendiary>
+    </projectile>
+  </ThingDef>
+-->
+</Defs>
