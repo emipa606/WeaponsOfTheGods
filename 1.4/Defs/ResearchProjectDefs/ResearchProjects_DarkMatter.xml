@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- -->
+  <ResearchProjectDef>
+    <defName>DarkEnergyResearch</defName>
+    <label>Dark Energy Fabrication</label>
+    <description>This is the gateway into godhood.</description>
+    <baseCost>3500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Gunsmithing</li>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+    <tab>DarkMatter</tab>
+  </ResearchProjectDef>
+  <!-- -->
+  <ResearchProjectDef>
+    <defName>DarkMatterResearch</defName>
+    <label>Dark Matter Fabrication</label>
+    <description>This is the gateway into godhood.</description>
+    <baseCost>3500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DarkEnergyResearch</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0</researchViewY>
+    <tab>DarkMatter</tab>
+  </ResearchProjectDef>
+  <!-- -->
+  <ResearchProjectDef>
+    <defName>DarkMatterWeaponResearch</defName>
+    <label>Dark Matter Weaponry</label>
+    <description>This is the gateway into godhood.</description>
+    <baseCost>3500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DarkMatterResearch</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>2</researchViewX>
+    <researchViewY>1</researchViewY>
+    <tab>DarkMatter</tab>
+  </ResearchProjectDef>
+  <!-- -->
+  <ResearchProjectDef>
+    <defName>DarkMatterArmorResearch</defName>
+    <label>Dark Matter Apparel</label>
+    <description>This is the gateway into godhood.</description>
+    <baseCost>3500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DarkMatterResearch</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>2</researchViewX>
+    <researchViewY>0</researchViewY>
+    <tab>DarkMatter</tab>
+  </ResearchProjectDef>
+  <!-- -->
+  <ResearchProjectDef>
+    <defName>DarkMatterTurretResearch</defName>
+    <label>Dark Matter Defenses</label>
+    <description>This is the gateway into godhood.</description>
+    <baseCost>3500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DarkMatterWeaponResearch</li>
+      <li>DarkMatterArmorResearch</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>3</researchViewX>
+    <researchViewY>0</researchViewY>
+    <tab>DarkMatter</tab>
+  </ResearchProjectDef>
+</Defs>
