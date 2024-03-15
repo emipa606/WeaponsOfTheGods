@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- == Scythe == -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>MeleeWeapon_DarkScythe</defName>
+    <label>Dark Matter Scythe</label>
+    <description>Ever wished you could become the embodiment of Death? Well wait no more, using this weapon with the Dark Matter Belt will make you unstoppable.</description>
+    <graphicData>
+      <texPath>Melee/DarkScythe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>3</Mass>
+    </statBases>
+    <equippedAngleOffset>15</equippedAngleOffset>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>45</power>
+        <cooldownTime>0.1</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>100</power>
+        <cooldownTime>0.1</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>100</power>
+        <cooldownTime>0.1</cooldownTime>
+      </li>
+    </tools>
+    <costList>
+      <darkmatter>2</darkmatter>
+      <DarkSteel>15</DarkSteel>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>DarkMatterWeaponResearch</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>GodTable</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>12</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+  <!-- == Sword == -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>MeleeWeapon_DarkSword</defName>
+    <label>Dark Matter Sword</label>
+    <description>Where a scythe is a weapon that embodies a reaper of death, a sword is man's embodiement of death to his fellows.</description>
+    <graphicData>
+      <texPath>Melee/Dark_Sword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>3</Mass>
+    </statBases>
+    <equippedAngleOffset>0</equippedAngleOffset>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>45</power>
+        <cooldownTime>0.1</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>100</power>
+        <cooldownTime>0.1</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>100</power>
+        <cooldownTime>0.1</cooldownTime>
+      </li>
+    </tools>
+    <costList>
+      <darkmatter>2</darkmatter>
+      <DarkSteel>12</DarkSteel>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>DarkMatterWeaponResearch</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>GodTable</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>12</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+  <!-- == Spear == -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>MeleeWeapon_DarkSpear</defName>
+    <label>Dark Matter Spear</label>
+    <description>When it comes to dealing death, some prefer do it at a distance of greater saftey yet close enough to see the fear in their prey's eyes.</description>
+    <graphicData>
+      <texPath>Melee/Dark_Spear</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>3</Mass>
+    </statBases>
+    <equippedAngleOffset>15</equippedAngleOffset>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>200</power>
+        <cooldownTime>0.1</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>150</power>
+        <cooldownTime>0.1</cooldownTime>
+      </li>
+    </tools>
+    <costList>
+      <darkmatter>2</darkmatter>
+      <DarkSteel>15</DarkSteel>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>DarkMatterWeaponResearch</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>GodTable</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>12</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+</Defs>
