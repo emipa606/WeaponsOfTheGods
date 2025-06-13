@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Dark Matter Scythe -->
+  <MeleeWeapon_DarkScythe.label>Dark Matter Scythe</MeleeWeapon_DarkScythe.label>
+  <!-- EN: Ever wished you could become the embodiment of Death? Well wait no more, using this weapon with the Dark Matter Belt will make you unstoppable. -->
+  <MeleeWeapon_DarkScythe.description>Ever wished you could become the embodiment of Death? Well wait no more, using this weapon with the Dark Matter Belt will make you unstoppable.</MeleeWeapon_DarkScythe.description>
+  <!-- EN: handle -->
+  <MeleeWeapon_DarkScythe.tools.handle.label>handle</MeleeWeapon_DarkScythe.tools.handle.label>
+  <!-- EN: point -->
+  <MeleeWeapon_DarkScythe.tools.point.label>point</MeleeWeapon_DarkScythe.tools.point.label>
+  <!-- EN: edge -->
+  <MeleeWeapon_DarkScythe.tools.edge.label>edge</MeleeWeapon_DarkScythe.tools.edge.label>
+  <!-- EN: Dark Matter Spear -->
+  <MeleeWeapon_DarkSpear.label>Dark Matter Spear</MeleeWeapon_DarkSpear.label>
+  <!-- EN: When it comes to dealing death, some prefer do it at a distance of greater saftey yet close enough to see the fear in their prey's eyes. -->
+  <MeleeWeapon_DarkSpear.description>When it comes to dealing death, some prefer do it at a distance of greater saftey yet close enough to see the fear in their prey's eyes.</MeleeWeapon_DarkSpear.description>
+  <!-- EN: point -->
+  <MeleeWeapon_DarkSpear.tools.point.label>point</MeleeWeapon_DarkSpear.tools.point.label>
+  <!-- EN: edge -->
+  <MeleeWeapon_DarkSpear.tools.edge.label>edge</MeleeWeapon_DarkSpear.tools.edge.label>
+  <!-- EN: Dark Matter Sword -->
+  <MeleeWeapon_DarkSword.label>Dark Matter Sword</MeleeWeapon_DarkSword.label>
+  <!-- EN: Where a scythe is a weapon that embodies a reaper of death, a sword is man's embodiement of death to his fellows. -->
+  <MeleeWeapon_DarkSword.description>Where a scythe is a weapon that embodies a reaper of death, a sword is man's embodiement of death to his fellows.</MeleeWeapon_DarkSword.description>
+  <!-- EN: handle -->
+  <MeleeWeapon_DarkSword.tools.handle.label>handle</MeleeWeapon_DarkSword.tools.handle.label>
+  <!-- EN: point -->
+  <MeleeWeapon_DarkSword.tools.point.label>point</MeleeWeapon_DarkSword.tools.point.label>
+  <!-- EN: edge -->
+  <MeleeWeapon_DarkSword.tools.edge.label>edge</MeleeWeapon_DarkSword.tools.edge.label>
+</LanguageData>

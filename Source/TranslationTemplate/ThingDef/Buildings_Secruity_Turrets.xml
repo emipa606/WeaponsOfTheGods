@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Plasma -->
+  <Bullet_DarkM.label>Plasma</Bullet_DarkM.label>
+  <!-- EN: Plasma -->
+  <Bullet_DarkS.label>Plasma</Bullet_DarkS.label>
+  <!-- EN: Desolation Cannon -->
+  <Gun_DarkM.label>Desolation Cannon</Gun_DarkM.label>
+  <!-- EN: Killing people en mass, is not a task everyone has time to doing personally on the Rim. Thankfully they made this turret just for this occassion. -->
+  <Gun_DarkM.description>Killing people en mass, is not a task everyone has time to doing personally on the Rim. Thankfully they made this turret just for this occassion.</Gun_DarkM.description>
+  <!-- EN: Desolation Cannon -->
+  <Gun_DarkM.verbs.Verb_Shoot.label>Desolation Cannon</Gun_DarkM.verbs.Verb_Shoot.label>
+  <!-- EN: Desolation Cannons -->
+  <Gun_DarkS.label>Desolation Cannons</Gun_DarkS.label>
+  <!-- EN: Killing people en mass, is not a task everyone has time to doing personally on the Rim. Thankfully they made this turret just for this occassion. -->
+  <Gun_DarkS.description>Killing people en mass, is not a task everyone has time to doing personally on the Rim. Thankfully they made this turret just for this occassion.</Gun_DarkS.description>
+  <!-- EN: Desolation Cannons -->
+  <Gun_DarkS.verbs.Verb_Shoot.label>Desolation Cannons</Gun_DarkS.verbs.Verb_Shoot.label>
+  <!-- EN: Desolation Cannon -->
+  <Turret_DarkM.label>Desolation Cannon</Turret_DarkM.label>
+  <!-- EN: Killing people en mass, is not a task everyone has time to doing personally on the Rim. Thankfully they made this turret just for this occassion. -->
+  <Turret_DarkM.description>Killing people en mass, is not a task everyone has time to doing personally on the Rim. Thankfully they made this turret just for this occassion.</Turret_DarkM.description>
+  <!-- EN: Barrel durability -->
+  <Turret_DarkM.comps.CompRefuelable.fuelGizmoLabel>Barrel durability</Turret_DarkM.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until barrel change -->
+  <Turret_DarkM.comps.CompRefuelable.fuelLabel>Shots until barrel change</Turret_DarkM.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Cannot shoot: Needs more energy -->
+  <Turret_DarkM.comps.CompRefuelable.outOfFuelMessage>Cannot shoot: Needs more energy</Turret_DarkM.comps.CompRefuelable.outOfFuelMessage>
+  <!-- EN: Peace Keeper -->
+  <Turret_DarkS.label>Peace Keeper</Turret_DarkS.label>
+  <!-- EN: When a double barrel sniper rifle wasn't enough, we made a triple barreled turret version. -->
+  <Turret_DarkS.description>When a double barrel sniper rifle wasn't enough, we made a triple barreled turret version.</Turret_DarkS.description>
+  <!-- EN: Barrel durability -->
+  <Turret_DarkS.comps.CompRefuelable.fuelGizmoLabel>Barrel durability</Turret_DarkS.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until barrel change -->
+  <Turret_DarkS.comps.CompRefuelable.fuelLabel>Shots until barrel change</Turret_DarkS.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Cannot shoot: Needs more energy -->
+  <Turret_DarkS.comps.CompRefuelable.outOfFuelMessage>Cannot shoot: Needs more energy</Turret_DarkS.comps.CompRefuelable.outOfFuelMessage>
+</LanguageData>

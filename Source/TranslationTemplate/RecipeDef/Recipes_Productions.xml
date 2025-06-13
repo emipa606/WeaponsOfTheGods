@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Contained Dark Energy -->
+  <Make_darkenergy.label>Contained Dark Energy</Make_darkenergy.label>
+  <!-- EN: A container holding the pure essence of dark energy, a mixture of science and magic. Used to make dark matter. -->
+  <Make_darkenergy.description>A container holding the pure essence of dark energy, a mixture of science and magic. Used to make dark matter.</Make_darkenergy.description>
+  <!-- EN: Converting matter to energy. -->
+  <Make_darkenergy.jobString>Converting matter to energy.</Make_darkenergy.jobString>
+  <!-- EN: Contained Dark Matter -->
+  <Make_darkmatter.label>Contained Dark Matter</Make_darkmatter.label>
+  <!-- EN: A container holding pure dark matter, the material of the most destructive qualities. Used for making the godly weapons at a forge. -->
+  <Make_darkmatter.description>A container holding pure dark matter, the material of the most destructive qualities. Used for making the godly weapons at a forge.</Make_darkmatter.description>
+  <!-- EN: Converting energy to matter. -->
+  <Make_darkmatter.jobString>Converting energy to matter.</Make_darkmatter.jobString>
+  <!-- EN: Dark Steel -->
+  <Make_DarkSteel.label>Dark Steel</Make_DarkSteel.label>
+  <!-- EN: A metalic material of unequal quality, made from plasteel and dark matter. -->
+  <Make_DarkSteel.description>A metalic material of unequal quality, made from plasteel and dark matter.</Make_DarkSteel.description>
+  <!-- EN: Combining Metal and Dark Matter. -->
+  <Make_DarkSteel.jobString>Combining Metal and Dark Matter.</Make_DarkSteel.jobString>
+  <!-- EN: Black Dark Steel -->
+  <Make_DarkSteel_Black.label>Black Dark Steel</Make_DarkSteel_Black.label>
+  <!-- EN: A metalic material of unequal quality, made from plasteel and dark matter. -->
+  <Make_DarkSteel_Black.description>A metalic material of unequal quality, made from plasteel and dark matter.</Make_DarkSteel_Black.description>
+  <!-- EN: Combining Metal and Dark Matter. -->
+  <Make_DarkSteel_Black.jobString>Combining Metal and Dark Matter.</Make_DarkSteel_Black.jobString>
+  <!-- EN: Darkened Dark Steel -->
+  <Make_DarkSteel_Darkened.label>Darkened Dark Steel</Make_DarkSteel_Darkened.label>
+  <!-- EN: A metalic material of unequal quality, made from plasteel and dark matter. -->
+  <Make_DarkSteel_Darkened.description>A metalic material of unequal quality, made from plasteel and dark matter.</Make_DarkSteel_Darkened.description>
+  <!-- EN: Combining Metal and Dark Matter. -->
+  <Make_DarkSteel_Darkened.jobString>Combining Metal and Dark Matter.</Make_DarkSteel_Darkened.jobString>
+  <!-- EN: Golden Dark Steel -->
+  <Make_DarkSteel_Gold.label>Golden Dark Steel</Make_DarkSteel_Gold.label>
+  <!-- EN: A metalic material of unequal quality, made from plasteel and dark matter. -->
+  <Make_DarkSteel_Gold.description>A metalic material of unequal quality, made from plasteel and dark matter.</Make_DarkSteel_Gold.description>
+  <!-- EN: Combining Metal and Dark Matter. -->
+  <Make_DarkSteel_Gold.jobString>Combining Metal and Dark Matter.</Make_DarkSteel_Gold.jobString>
+  <!-- EN: Marbled Dark Steel -->
+  <Make_DarkSteel_Marble.label>Marbled Dark Steel</Make_DarkSteel_Marble.label>
+  <!-- EN: A metalic material of unequal quality, made from plasteel and dark matter. -->
+  <Make_DarkSteel_Marble.description>A metalic material of unequal quality, made from plasteel and dark matter.</Make_DarkSteel_Marble.description>
+  <!-- EN: Combining Metal and Dark Matter. -->
+  <Make_DarkSteel_Marble.jobString>Combining Metal and Dark Matter.</Make_DarkSteel_Marble.jobString>
+  <!-- EN: White Dark Steel -->
+  <Make_DarkSteel_White.label>White Dark Steel</Make_DarkSteel_White.label>
+  <!-- EN: A metalic material of unequal quality, made from plasteel and dark matter. -->
+  <Make_DarkSteel_White.description>A metalic material of unequal quality, made from plasteel and dark matter.</Make_DarkSteel_White.description>
+  <!-- EN: Combining Metal and Dark Matter. -->
+  <Make_DarkSteel_White.jobString>Combining Metal and Dark Matter.</Make_DarkSteel_White.jobString>
+</LanguageData>

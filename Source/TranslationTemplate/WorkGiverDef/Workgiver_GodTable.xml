@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: converting matter into energy -->
+  <DoBillsDarkProd.label>converting matter into energy</DoBillsDarkProd.label>
+  <!-- EN: Do Science and Magic at -->
+  <DoBillsDarkProd.gerund>Do Science and Magic at</DoBillsDarkProd.gerund>
+  <!-- EN: converting -->
+  <DoBillsDarkProd.verb>converting</DoBillsDarkProd.verb>
+  <!-- EN: make weapons -->
+  <DoBillsGodTable.label>make weapons</DoBillsGodTable.label>
+  <!-- EN: Forging -->
+  <DoBillsGodTable.gerund>Forging</DoBillsGodTable.gerund>
+  <!-- EN: smith -->
+  <DoBillsGodTable.verb>smith</DoBillsGodTable.verb>
+</LanguageData>

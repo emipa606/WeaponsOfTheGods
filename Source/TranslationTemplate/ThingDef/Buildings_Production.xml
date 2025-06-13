@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Matter Converter -->
+  <DarkProd.label>Matter Converter</DarkProd.label>
+  <!-- EN: A large machine with the capabilities of using fission to produce energy and form that energy into dark energy, which is required to make dark matter. -->
+  <DarkProd.description>A large machine with the capabilities of using fission to produce energy and form that energy into dark energy, which is required to make dark matter.</DarkProd.description>
+  <!-- EN: Forge -->
+  <GodTable.label>Forge</GodTable.label>
+  <!-- EN: A workbench with the capabilities of allowing pawns to wield the power of death in their hands. Can work without electricity at 25% of normal speed. -->
+  <GodTable.description>A workbench with the capabilities of allowing pawns to wield the power of death in their hands. Can work without electricity at 25% of normal speed.</GodTable.description>
+</LanguageData>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Doom Bolt -->
+  <BOD_Bullet.label>Doom Bolt</BOD_Bullet.label>
+  <!-- EN: railgun projectile -->
+  <Bullet_OSOK.label>railgun projectile</Bullet_OSOK.label>
+  <!-- EN: Holy Hellfire Bow -->
+  <holyhellfirebow.label>Holy Hellfire Bow</holyhellfirebow.label>
+  <!-- EN: There was a wizard, cleric, and a ranger that met one fair day. Together they designed a weapon that utilized all their expertises. This weapon is the result, a bow with the capability of launching highly volitile fireballs. -->
+  <holyhellfirebow.description>There was a wizard, cleric, and a ranger that met one fair day. Together they designed a weapon that utilized all their expertises. This weapon is the result, a bow with the capability of launching highly volitile fireballs.</holyhellfirebow.description>
+  <!-- EN: limb -->
+  <holyhellfirebow.tools.limb.label>limb</holyhellfirebow.tools.limb.label>
+  <!-- EN: Holy Hellfire Bow -->
+  <holyhellfirebow.verbs.Verb_Shoot.label>Holy Hellfire Bow</holyhellfirebow.verbs.Verb_Shoot.label>
+  <!-- EN: Omni Bullet -->
+  <omnibullet.label>Omni Bullet</omnibullet.label>
+  <!-- EN: Omni Gun -->
+  <omnigun.label>Omni Gun</omnigun.label>
+  <!-- EN: Someone once wondered what would happen if you could shoot shogun shells at the range of a sniper rifle with a rate of fire of a minigun. Well wonder no more and make this weapon. -->
+  <omnigun.description>Someone once wondered what would happen if you could shoot shogun shells at the range of a sniper rifle with a rate of fire of a minigun. Well wonder no more and make this weapon.</omnigun.description>
+  <!-- EN: stock -->
+  <omnigun.tools.stock.label>stock</omnigun.tools.stock.label>
+  <!-- EN: barrel -->
+  <omnigun.tools.barrel.label>barrel</omnigun.tools.barrel.label>
+  <!-- EN: Omni Gun -->
+  <omnigun.verbs.Verb_Shoot.label>Omni Gun</omnigun.verbs.Verb_Shoot.label>
+  <!-- EN: Mutilator -->
+  <OSOK.label>Mutilator</OSOK.label>
+  <!-- EN: Many wondered if there could be a precision sniper rifle with the capability taking down enemies in a single shot. This weapon was the result. They were impressed by how much destruction a single round could do, so they made it a double barelled precision rifle. The bullets are without equal, tearing apart anything they hit. "You name it, you maim it." -->
+  <OSOK.description>Many wondered if there could be a precision sniper rifle with the capability taking down enemies in a single shot. This weapon was the result. They were impressed by how much destruction a single round could do, so they made it a double barelled precision rifle. The bullets are without equal, tearing apart anything they hit. "You name it, you maim it."</OSOK.description>
+  <!-- EN: stock -->
+  <OSOK.tools.stock.label>stock</OSOK.tools.stock.label>
+  <!-- EN: barrel -->
+  <OSOK.tools.barrel.label>barrel</OSOK.tools.barrel.label>
+  <!-- EN: Mutilator -->
+  <OSOK.verbs.Verb_Shoot.label>Mutilator</OSOK.verbs.Verb_Shoot.label>
+</LanguageData>

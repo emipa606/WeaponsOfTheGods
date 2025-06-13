@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: shell -->
+  <BOD_BulletBomb.label>shell</BOD_BulletBomb.label>
+  <!-- EN: {0} has died in an fiery explosion. -->
+  <BOD_BulletBomb.deathMessage>{0} has died in an fiery explosion.</BOD_BulletBomb.deathMessage>
+  <!-- EN: bomb -->
+  <DarkBFG_BulletBomb.label>bomb</DarkBFG_BulletBomb.label>
+  <!-- EN: {0} has died in an epic explosion. -->
+  <DarkBFG_BulletBomb.deathMessage>{0} has died in an epic explosion.</DarkBFG_BulletBomb.deathMessage>
+</LanguageData>

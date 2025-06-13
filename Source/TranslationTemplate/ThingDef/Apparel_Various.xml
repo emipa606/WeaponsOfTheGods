@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Dark Matter Armor -->
+  <Apparel_DarkArmor.label>Dark Matter Armor</Apparel_DarkArmor.label>
+  <!-- EN: A suite of armor that makes any man a unstoppable force. -->
+  <Apparel_DarkArmor.description>A suite of armor that makes any man a unstoppable force.</Apparel_DarkArmor.description>
+  <!-- EN: Dark Matter Helmet -->
+  <Apparel_DarkHelmet.label>Dark Matter Helmet</Apparel_DarkHelmet.label>
+  <!-- EN: A helmet of unbreakable material. -->
+  <Apparel_DarkHelmet.description>A helmet of unbreakable material.</Apparel_DarkHelmet.description>
+  <!-- EN: Dark Matter Combat Pants -->
+  <Apparel_DarkPants.label>Dark Matter Combat Pants</Apparel_DarkPants.label>
+  <!-- EN: Something durable and something that won't stain if you piss yourself in the middle of combat. These pants are a favorite of many, high defense and the ability of letting the user run really fast, like really fast. -->
+  <Apparel_DarkPants.description>Something durable and something that won't stain if you piss yourself in the middle of combat. These pants are a favorite of many, high defense and the ability of letting the user run really fast, like really fast.</Apparel_DarkPants.description>
+  <!-- EN: Dark Matter Vest -->
+  <Apparel_DarkVest.label>Dark Matter Vest</Apparel_DarkVest.label>
+  <!-- EN: A vest made from molding dark energies into a light weight but very dense vest with optimal defense qualities. -->
+  <Apparel_DarkVest.description>A vest made from molding dark energies into a light weight but very dense vest with optimal defense qualities.</Apparel_DarkVest.description>
+</LanguageData>

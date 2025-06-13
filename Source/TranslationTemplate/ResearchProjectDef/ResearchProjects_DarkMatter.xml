@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Dark Energy Fabrication -->
+  <DarkEnergyResearch.label>Dark Energy Fabrication</DarkEnergyResearch.label>
+  <!-- EN: This is the gateway into godhood. -->
+  <DarkEnergyResearch.description>This is the gateway into godhood.</DarkEnergyResearch.description>
+  <!-- EN: Dark Matter Apparel -->
+  <DarkMatterArmorResearch.label>Dark Matter Apparel</DarkMatterArmorResearch.label>
+  <!-- EN: This is the gateway into godhood. -->
+  <DarkMatterArmorResearch.description>This is the gateway into godhood.</DarkMatterArmorResearch.description>
+  <!-- EN: Dark Matter Fabrication -->
+  <DarkMatterResearch.label>Dark Matter Fabrication</DarkMatterResearch.label>
+  <!-- EN: This is the gateway into godhood. -->
+  <DarkMatterResearch.description>This is the gateway into godhood.</DarkMatterResearch.description>
+  <!-- EN: Dark Matter Defenses -->
+  <DarkMatterTurretResearch.label>Dark Matter Defenses</DarkMatterTurretResearch.label>
+  <!-- EN: This is the gateway into godhood. -->
+  <DarkMatterTurretResearch.description>This is the gateway into godhood.</DarkMatterTurretResearch.description>
+  <!-- EN: Dark Matter Weaponry -->
+  <DarkMatterWeaponResearch.label>Dark Matter Weaponry</DarkMatterWeaponResearch.label>
+  <!-- EN: This is the gateway into godhood. -->
+  <DarkMatterWeaponResearch.description>This is the gateway into godhood.</DarkMatterWeaponResearch.description>
+</LanguageData>

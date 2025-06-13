@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Contained Dark Energy -->
+  <darkenergy.label>Contained Dark Energy</darkenergy.label>
+  <!-- EN: A container holding the pure essence of dark energy, a mixture of science and magic. Used to make dark matter. -->
+  <darkenergy.description>A container holding the pure essence of dark energy, a mixture of science and magic. Used to make dark matter.</darkenergy.description>
+  <!-- EN: Contained Dark Matter -->
+  <darkmatter.label>Contained Dark Matter</darkmatter.label>
+  <!-- EN: A container holding pure dark matter, the material of the most destructive qualities. -->
+  <darkmatter.description>A container holding pure dark matter, the material of the most destructive qualities.</darkmatter.description>
+  <!-- EN: Dark Steel -->
+  <DarkSteel.label>Dark Steel</DarkSteel.label>
+  <!-- EN: A metalic material of unequal quality, made from plasteel and dark matter. -->
+  <DarkSteel.description>A metalic material of unequal quality, made from plasteel and dark matter.</DarkSteel.description>
+  <!-- EN: Black Dark Steel -->
+  <DarkSteel_Black.label>Black Dark Steel</DarkSteel_Black.label>
+  <!-- EN: A blackish version of the metalic material of unequal quality, made from plasteel and dark matter. -->
+  <DarkSteel_Black.description>A blackish version of the metalic material of unequal quality, made from plasteel and dark matter.</DarkSteel_Black.description>
+  <!-- EN: Darkened Dark Steel -->
+  <DarkSteel_Darkened.label>Darkened Dark Steel</DarkSteel_Darkened.label>
+  <!-- EN: A metalic material of unequal quality, made from plasteel and dark matter. -->
+  <DarkSteel_Darkened.description>A metalic material of unequal quality, made from plasteel and dark matter.</DarkSteel_Darkened.description>
+  <!-- EN: Golden Dark Steel -->
+  <DarkSteel_Gold.label>Golden Dark Steel</DarkSteel_Gold.label>
+  <!-- EN: A golden version of the metalic material of unequal quality, made from plasteel and dark matter. -->
+  <DarkSteel_Gold.description>A golden version of the metalic material of unequal quality, made from plasteel and dark matter.</DarkSteel_Gold.description>
+  <!-- EN: Marbled Dark Steel -->
+  <DarkSteel_Marble.label>Marbled Dark Steel</DarkSteel_Marble.label>
+  <!-- EN: A marble looking version of the metalic material of unequal quality, made from plasteel and dark matter. -->
+  <DarkSteel_Marble.description>A marble looking version of the metalic material of unequal quality, made from plasteel and dark matter.</DarkSteel_Marble.description>
+  <!-- EN: White Dark Steel -->
+  <DarkSteel_White.label>White Dark Steel</DarkSteel_White.label>
+  <!-- EN: A white version of the metalic material of unequal quality, made from plasteel and dark matter. -->
+  <DarkSteel_White.description>A white version of the metalic material of unequal quality, made from plasteel and dark matter.</DarkSteel_White.description>
+</LanguageData>
