@@ -1,0 +1,142 @@
+ManifestFileVersion: 0
+CRC: 1429642009
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 646fd4130d5d47fcffa1cbf747cbcd59
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 646fd4130d5d47fcffa1cbf747cbcd59
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/DarkSniper.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/BOD_Arrowglow.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/bulletmkii.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DMArmor.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DMArmor_Thin_east.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Table/DarkProd_north.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/Heaven_Top2.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Turrets/DarkM_UI.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/Desolation1_Base.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/scythe.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Ranged/OmniRifle.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Belt/ShieldBelt.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DarkVest_Hulk_east.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Ranged/BFGRevised.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/2.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Table/GodTable_east.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Items/asd.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Items/DarkSteel_White.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Helmet/DMHelmet.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DarkVest_Fat_south.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/Gun2.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/Heaven_Top.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Turrets/asd.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/GodTable_east.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/darkspear.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Belt/ShieldBubble.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DarkVest_Thin_east.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DarkVest_Fat_north.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Ranged/BOD_Glow.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Items/DarkSteel_Gold.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/BOD_Arrow.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/OmniBullet.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Items/DarkSteel_Marble.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/darksword.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Table/DarkProd_east.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DMArmor_Male_south.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Ranged/DarkBFG_Bullet.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Turrets/DarkS_UI.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/DarkCannon_Base.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DMArmor_Thin_north.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Table/DarkProd_south.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DarkVest_Thin_south.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DMArmor_Male_east.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DarkVest_Male_north.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/ModGun.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Melee/Dark_Sword.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/ModGunmkii.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DarkVest_Female_south.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Ranged/BOD.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/scythemkii.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DarkVest_Male_east.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/DarkSnipermkiii.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/DarkSnipermkii.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DMArmor_Female_east.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DarkVest_Female_north.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/Ranged.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Table/GodTable_north (2).png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DMArmor_Female_south.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DMArmor_Hulk_north.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Helmet/DMHelmet_south.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DarkVest_Female_east.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Items/DarkEnergy.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DarkVest.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DMArmor_Fat_north.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/Base Temp. - Copy
+  (3).png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Items/DarkMatter.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Turrets/TopM.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/Doommkii.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/scythemkiii.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Melee/darkaxe.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/Desolation_Base.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/turretmkii.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Pants/DarkPants.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/Assualtrifle.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Ranged/OSOK_Test Draft.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/turret.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/Armor.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Melee/DarkScythe.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Ranged/OSOKmki.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/OmniBulletmkii.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DMArmor_Female_north.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/Base Temp. - Copy
+  (12).png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Items/DarkSteel_Darkened.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Items/DarkEnergymkii.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/Doom.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Turrets/SniperDark_Bullet.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/Base Temp. - Copy
+  (15).png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/ModGunmkiv.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DMArmor_Hulk_south.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DarkVest_Fat_east.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/DarkCannon_Top.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Melee/Dark_Spear.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/DarkCannon_MenuIcon.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/123.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Helmet/DMHelmet_east.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Turrets/TopS.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Turrets/Untitled.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Ranged/OmniBulletmkiii.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Turrets/Dark_Base.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DarkVest_Hulk_north.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Turrets/DarkH_UI.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/DarkBFG.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DarkVest_Male_south.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DMArmor_Thin_south.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/DarkBFGii.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DarkVest_Thin_north.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Items/DarkSteel.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DMArmor_Fat_east.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Items/DarkSteel_Black.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DMArmor_Male_north.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/GodTable_north.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Experimental(Testing)/GodTable_south.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DarkVest_Hulk_south.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Helmet/DMHelmet_north.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Turrets/Bullet_TurretM.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Armor/Vest/DMArmor_Fat_south.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Ranged/OSOKmkii.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Turrets/TopM2.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Turrets/TopH.png
+- Assets/Data/Mlie.WeaponsOfTheGods/Textures/Table/GodTable_north.png
+Dependencies: []
