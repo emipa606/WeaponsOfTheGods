@@ -1,13 +1,13 @@
 # [Weapons of the Gods (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2689357399)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of InfiernosAxxs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1669600070
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 This mod adds 2 new workbench, 5 new armor pieces, 3 new items, 2 powerful turrets, and 6 new powerful weapons of god like power made from dark matter technology. 
 
@@ -153,13 +153,13 @@ I might add new weapons at a later date.
 
        **LeafyGrove** - For making the Armor Textures for the Power Armor and Helmet. Also, for coming up with the idea of and doing a third of the xml coding and all of the png's for the color variations for the Dark Steel.
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -167,4 +167,4 @@ I might add new weapons at a later date.
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/WeaponsOfTheGods?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2689357399) | tags:  powerful weapons,  advanced technology
+[![Image](https://img.shields.io/github/v/release/emipa606/WeaponsOfTheGods?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2689357399) | advanced technology, powerful weapons
